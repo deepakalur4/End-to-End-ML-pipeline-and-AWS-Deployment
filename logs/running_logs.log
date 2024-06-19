@@ -10,3 +10,11 @@
 [2024-06-19 18:10:11,099:INFO:_internal:127.0.0.1 - - [19/Jun/2024 18:10:11] "GET / HTTP/1.1" 200 -]
 [2024-06-19 18:10:11,220:INFO:_internal:127.0.0.1 - - [19/Jun/2024 18:10:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
 [2024-06-19 18:10:25,383:INFO:_internal:127.0.0.1 - - [19/Jun/2024 18:10:25] "POST /predict HTTP/1.1" 200 -]
+[2024-06-19 21:58:33,969:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-06-19 21:58:33,971:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-06-19 21:58:33,971:INFO:_internal: * Restarting with stat]
+[2024-06-19 21:58:37,780:WARNING:_internal: * Debugger is active!]
+[2024-06-19 21:58:37,780:INFO:_internal: * Debugger PIN: 930-314-275]
+[2024-06-19 21:58:38,436:INFO:_internal:127.0.0.1 - - [19/Jun/2024 21:58:38] "GET / HTTP/1.1" 200 -]
+[2024-06-19 21:58:47,572:INFO:_internal:127.0.0.1 - - [19/Jun/2024 21:58:47] "POST /predict HTTP/1.1" 200 -]
