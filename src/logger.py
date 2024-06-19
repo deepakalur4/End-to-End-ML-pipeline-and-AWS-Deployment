@@ -10,7 +10,7 @@ os.makedirs(log_dir,exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,format=logging_string,
-   handlers=[logging.StreamHandler(log_file_path),logging.StreamHandler(sys.stdout)]
+   handlers=[logging.FileHandler(log_file_path),logging.StreamHandler(sys.stdout)]
 )
 
 logger=logging.getLogger("ML_Project_logger")
