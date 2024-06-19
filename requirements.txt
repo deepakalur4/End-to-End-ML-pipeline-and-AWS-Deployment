@@ -5,3 +5,4 @@ flask
 seaborn
 matplotlib
 setuptools
+-e .
